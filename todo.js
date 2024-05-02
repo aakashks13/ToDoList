@@ -3,7 +3,7 @@ let todoList = [];
 let request = prompt("Your Request please").toLowerCase().trim();
 for(let i = 0; ; i++){
    if(request === "done"){
-        console.log("Thanks");
+        console.log("All changes saved");
         break;
     }
     if(request === "list"){

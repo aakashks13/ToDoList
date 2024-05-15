@@ -17,7 +17,7 @@ for(let i = 0; ; i++){
     }else if(request === "add"){
         let addTask = prompt("Add your Task");
         todoList.push(addTask);
-        console.log("Task Added");
+        console.log(`Task Added -> ${addTask}`);
     }else if(request === "delete"){
         let deleteTask = Number(prompt("Enter index Number"));
         if(deleteTask >= todoList.length){
